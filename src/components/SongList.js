@@ -3,12 +3,28 @@ import { connect } from "react-redux"
 
 class SongList extends Component {
 
+   renderList(){
+      return this.props.songs.map((song)=>{
+
+         return (<div className="item" key={song.tile}>
+
+                 <div className="right floated content">
+
+                    <button className=" ui button primary">
+                       Select 
+                    </button>
+                 </div>
+                 <div className="content">{song.tile}</div>
+         </div>)
+      })
+
+   }
+       
    render(){
-         
+        
     return (
         <div>
-           <h1>Song List</h1>
-    
+           {this.renderList()}
        </div>
     
     );
@@ -17,7 +33,7 @@ class SongList extends Component {
 
 }
 const mapStateToProps =(state)=>{
-    console.log(state.songs)
+    
   return {songs: state.songs}
 }
 export default connect(mapStateToProps)(SongList)

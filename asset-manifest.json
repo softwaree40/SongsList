@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/SongsList/static/js/main.c07fa068.chunk.js",
+    "main.js.map": "/SongsList/static/js/main.c07fa068.chunk.js.map",
+    "runtime-main.js": "/SongsList/static/js/runtime-main.ac461c1d.js",
+    "runtime-main.js.map": "/SongsList/static/js/runtime-main.ac461c1d.js.map",
+    "static/js/2.28233ef5.chunk.js": "/SongsList/static/js/2.28233ef5.chunk.js",
+    "static/js/2.28233ef5.chunk.js.map": "/SongsList/static/js/2.28233ef5.chunk.js.map",
+    "index.html": "/SongsList/index.html",
+    "static/js/2.28233ef5.chunk.js.LICENSE.txt": "/SongsList/static/js/2.28233ef5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac461c1d.js",
+    "static/js/2.28233ef5.chunk.js",
+    "static/js/main.c07fa068.chunk.js"
+  ]
+}
